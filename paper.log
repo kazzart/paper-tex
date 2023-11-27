@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.11.26)  27 NOV 2023 00:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.11.26)  28 NOV 2023 00:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -192,27 +192,58 @@ Package: enumitem 2019/06/20 v3.9 Customized lists
 \enit@inbox=\box98
 \enit@count@id=\count291
 \enitdp@description=\count292
+) (C:\Users\misai\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+ (C:\Users\misai\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+ (C:\Users\misai\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+) (C:\Users\misai\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+ (C:\Users\misai\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen166
+\Gin@req@width=\dimen167
+) (C:\Users\misai\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+ (C:\Users\misai\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen168
+\captionmargin=\dimen169
+\caption@leftmargin=\dimen170
+\caption@rightmargin=\dimen171
+\caption@width=\dimen172
+\caption@indent=\dimen173
+\caption@parindent=\dimen174
+\caption@hangindent=\dimen175
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count293
+\c@continuedfloat=\count294
 ) (C:\Users\misai\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-11-09 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count293
+\l__color_backend_stack_int=\count295
 \l__pdf_internal_box=\box99
 ) (paper.aux)
 \openout1 = `paper.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -248,35 +279,41 @@ LaTeX Font Info:    ... okay on input line 22.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package ragged2e Info: ABD: executing \RaggedRight on input line 22.
+Package ragged2e Info: ABD: executing \RaggedRight on input line 29.
+(C:\Users\misai\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count296
+\scratchdimen=\dimen176
+\scratchbox=\box100
+\nofMPsegments=\count297
+\nofMParguments=\count298
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count299
+\MPscratchDim=\dimen177
+\MPnumerator=\count300
+\makeMPintoPDFobject=\count301
+\everyMPtoPDFconversion=\toks25
+) (C:\Users\misai\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (C:\Users\misai\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
 
-Underfull \hbox (badness 1320) in paragraph at lines 24--24
+Underfull \hbox (badness 1320) in paragraph at lines 31--31
  []\myfont Algorithm for De-tect-ing Anoma-lous Stu-dent 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 24--24
+Underfull \hbox (badness 10000) in paragraph at lines 31--31
  \myfont Box Plots 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 31--31
- []\T1/cmr/m/n/9 Liliya A. Demi-dova 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 36--36
- \T1/cmr/m/n/9 Moscow, Rus-sia 
- []
-
-
-Underfull \hbox (badness 5533) in paragraph at lines 37--37
- \T1/cmr/m/n/9 liliya.demidova@rambler.ru 
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 38--38
- \T1/cmr/m/n/9 Anastas A. Mi-s-ai-lidi 
+ []\T1/cmr/m/n/9 Liliya A. Demi-dova 
  []
 
 
@@ -285,30 +322,66 @@ Underfull \hbox (badness 10000) in paragraph at lines 43--43
  []
 
 
-Underfull \hbox (badness 8056) in paragraph at lines 44--44
+Underfull \hbox (badness 5533) in paragraph at lines 44--44
+ \T1/cmr/m/n/9 liliya.demidova@rambler.ru 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--45
+ \T1/cmr/m/n/9 Anastas A. Mi-s-ai-lidi 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 50--50
+ \T1/cmr/m/n/9 Moscow, Rus-sia 
+ []
+
+
+Underfull \hbox (badness 8056) in paragraph at lines 51--51
  \T1/cmr/m/n/9 misailidi.a@gmail.com 
  []
 
 [1
 
-{C:/Users/misai/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2] (paper.aux)
+{C:/Users/misai/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 145.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 145.
+<./pic/pic1.png, id=15, 1182.3372pt x 1063.0917pt>
+File: ./pic/pic1.png Graphic file (type png)
+<use ./pic/pic1.png>
+Package pdftex.def Info: ./pic/pic1.png  used on input line 200.
+(pdftex.def)             Requested size: 534.62764pt x 480.70651pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: ./pic/pic1.png Graphic file (type png)
+<use ./pic/pic1.png>
+Package pdftex.def Info: ./pic/pic1.png  used on input line 205.
+(pdftex.def)             Requested size: 534.62764pt x 480.70651pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[3] [4 <./pic/pic1.png>] [5] (paper.aux)
  ***********
 LaTeX2e <2023-11-01>
 L3 programming layer <2023-11-09>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 2543 strings out of 474587
- 42070 string characters out of 5745701
- 1948558 words of memory out of 5000000
- 24746 multiletter control sequences out of 15000+600000
- 562393 words of font info for 43 fonts, out of 8000000 for 9000
+ 4702 strings out of 474587
+ 80475 string characters out of 5745701
+ 1956558 words of memory out of 5000000
+ 26869 multiletter control sequences out of 15000+600000
+ 563157 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,5n,65p,1320b,338s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\misai\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk> <C:\Users\misai\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\misai\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx0900.pk> <C:\Users\misai\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbi0900.pk> <C:\Users\misai\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti0900.pk> <C:\Users\misai\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0900.pk><C:/Users/misai/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on paper.pdf (2 pages, 90103 bytes).
+ 57i,6n,65p,1320b,579s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\misai\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\misai\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk> <C:\Users\misai\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\misai\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx0900.pk> <C:\Users\misai\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbi0900.pk> <C:\Users\misai\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti0900.pk> <C:\Users\misai\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0900.pk><C:/Users/misai/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/misai/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/misai/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/misai/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on paper.pdf (5 pages, 295846 bytes).
 PDF statistics:
- 243 PDF objects out of 1000 (max. 8388607)
+ 304 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
