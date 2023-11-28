@@ -1,7 +1,7 @@
-\documentclass[letterpaper]{article}
-\usepackage{blindtext}
+\documentclass{article}
+\usepackage{newtxtext}
 \usepackage[utf8]{inputenc}
-\usepackage[legalpaper, left=1.40cm, right=1.40cm, top=0.95cm, bottom=2.54cm]{geometry}
+\usepackage[legalpaper, left=1.40cm, right=1.40cm, top=0.95cm, bottom=2.54cm, a4paper]{geometry}
 \usepackage[document]{ragged2e}
 \usepackage{multicol}
 \usepackage[T1]{fontenc}
@@ -10,11 +10,16 @@
 \usepackage{enumitem}
 \usepackage{graphicx}
 \usepackage[font=footnotesize]{caption}
+\usepackage{etoolbox}
+
+\patchcmd{\thebibliography}{\section*{\refname}}{}{}{}
+\bibliographystyle{plain}
 \captionsetup{justification=raggedright,singlelinecheck=false}
 \graphicspath{ {./pic/} }
 \makeatletter
 \renewcommand{\fnum@figure}{Fig. \thefigure}
 \makeatother
+
 
 
 \font\myfont=cmr12 at 24pt
@@ -38,14 +43,14 @@
         Liliya A. Demidova\\
         \textit{
           Institute for Information Technologies\\
-          Federal State Budget Educational Institution of Higher\\Education \guillemotleft MIREA – Russian Technological University\guillemotright\\
+          Federal State Budget Educational Institution of Higher Education\\\guillemotleft MIREA – Russian Technological University\guillemotright\\
         }
         Moscow, Russia\\
         liliya.demidova@rambler.ru\\
         Anastas A. Misailidi\\
         \textit{
           Institute for Information Technologies\\
-          Federal State Budget Educational Institution of Higher\\Education \guillemotleft MIREA – Russian Technological University\guillemotright\\
+          Federal State Budget Educational Institution of Higher Education\\\guillemotleft MIREA – Russian Technological University\guillemotright\\
         }
         Moscow, Russia\\
         misailidi.a@gmail.com\\
@@ -71,23 +76,23 @@
       
       Educational Data Mining (EDM) is a field that focuses on applying data analysis methods to extract valuable knowledge and patterns in the educational environment. EDM utilizes various methods and techniques to analyze data collected from various educational sources such as e-textbooks, online courses, and learning platforms.
 
-      As of the current moment, tracking underperforming students and the field of educational data mining remain pivotal in the realm of education. Modern technologies and analytical methods continue to play a crucial role in the analysis of vast datasets collected during online learning and courses [1]. Presently, the primary focus is on identifying complex patterns and trends related to student performance, as well as providing individual recommendations to optimize the learning process. State-of-the-art algorithms are designed to proactively identify student challenges, enhance their motivation and engagement in learning, and reduce student attrition from educational programs [2]. This area of scientific research continues to evolve actively, offering endless prospects for improving the quality of education and achieving greater efficiency in the field of education.
+      As of the current moment, tracking underperforming students and the field of educational data mining remain pivotal in the realm of education. Modern technologies and analytical methods continue to play a crucial role in the analysis of vast datasets collected during online learning and courses \cite{1}. Presently, the primary focus is on identifying complex patterns and trends related to student performance, as well as providing individual recommendations to optimize the learning process. State-of-the-art algorithms are designed to proactively identify student challenges, enhance their motivation and engagement in learning, and reduce student attrition from educational programs \cite{2}. This area of scientific research continues to evolve actively, offering endless prospects for improving the quality of education and achieving greater efficiency in the field of education.
 
       In EDM, the following data analysis tools are considered.
       \begin{itemize}
-        \item Cluster Analysis. This tool allows for the grouping of students into clusters based on their activity and learning performance. It can help identify different learning styles and student needs [3].
+        \item Cluster Analysis. This tool allows for the grouping of students into clusters based on their activity and learning performance. It can help identify different learning styles and student needs \cite{3}.
         \item Classification and Prediction. This tool enables the creation of models using machine learning algorithms to predict student success, identify outlier risks, or recommend individual learning paths.
         \item Association Rules. This tool helps discover relationships and dependencies between student actions in the educational environment.
         \item Factor Analysis. This tool helps uncover hidden factors influencing student success, such as motivation, preferences, and the educational environment.
         \item Text Data Mining. This tool is used for analyzing textual data, such as essays, reviews, and student comments, to identify trends and sentiments.
-        \item Data Visualization. This tool allows educators and administrators to present information about students and educational processes in a more visual manner, aiding in making well-informed decisions [4].
-        \item Data Analysis in Recommender Systems. This tool uses data analysis to provide students with course recommendations, materials, and learning strategies based on their previous experiences and interests [5].
+        \item Data Visualization. This tool allows educators and administrators to present information about students and educational processes in a more visual manner, aiding in making well-informed decisions \cite{2}.
+        \item Data Analysis in Recommender Systems. This tool uses data analysis to provide students with course recommendations, materials, and learning strategies based on their previous experiences and interests \cite{5}.
         \item Graph Analytics. This tool enables the analysis of students' social networks and interactions within the educational environment.
       \end{itemize}
 
-      These tools are used in EDM to optimize the educational process, improve learning outcomes, and create more personalized learning experiences for students [6].
+      These tools are used in EDM to optimize the educational process, improve learning outcomes, and create more personalized learning experiences for students \cite{6}.
 
-      Massive online education, especially in the field of programming languages, is rapidly evolving. With the advent of online platforms and courses such as Coursera, edX, Codecademy, and many others, students and professionals worldwide have gained access to extensive libraries of educational resources, allowing them to learn programming languages at their own pace and at a convenient time. This has led to the democratization of education and increased accessibility of programming knowledge for everyone, regardless of their location and financial resources. Many of these courses offer interactive tasks, projects, and practical exercises, which contribute to a deeper understanding of programming languages and the enhancement of IT skills. Massive online education in the field of programming languages has truly transformed people's ability to learn and apply technological skills, making programming more accessible and inclusive for all [7].
+      Massive online education, especially in the field of programming languages, is rapidly evolving. With the advent of online platforms and courses such as Coursera, edX, Codecademy, and many others, students and professionals worldwide have gained access to extensive libraries of educational resources, allowing them to learn programming languages at their own pace and at a convenient time. This has led to the democratization of education and increased accessibility of programming knowledge for everyone, regardless of their location and financial resources. Many of these courses offer interactive tasks, projects, and practical exercises, which contribute to a deeper understanding of programming languages and the enhancement of IT skills. Massive online education in the field of programming languages has truly transformed people's ability to learn and apply technological skills, making programming more accessible and inclusive for all \cite{7}.
 
       Timely identification of learners experiencing difficulties in mastering specific topics within a course is of significant interest, with the aim of enabling timely intervention by educators to address emerging issues, such as providing additional materials or explanations.
       
@@ -155,6 +160,7 @@
         $$Lower Bound=Q1-(1.5*IQR).$$
         \item Consider the analyzed value as an outlier if it is less than the Lower Bound or greater than the Upper Bound.
       \end{enumerate}
+      
       The algorithm follows a standard approach to detect outliers in the analyzed dataset, based on calculating interquartile ranges for feature values. In particular, it calculates the interquartile ranges for the feature values describing the number of unsuccessful attempts by a specific student in solving a specific task and for the feature values representing the duration of solving a specific task by a particular student. This calculation is done each time a new solution for a task by a student is uploaded.
 
       The proposed algorithm can be described by the following sequence of steps.
@@ -199,12 +205,13 @@
     \centering
     \includegraphics[width=\linewidth]{pic1.png}
     \caption{Graphical dependencies based on box plots of the number of solution uploads for tasks}
+    \label{fig:pic1}
   \end{figure}
   \begin{figure}[h]
     \centering
-    \includegraphics[width=\linewidth]{pic1.png}
+    \includegraphics[width=\linewidth]{pic2.png}
     \caption{Graphical dependencies based on box plots of the duration of task solutions}
-    \label{Fig:text}
+    \label{fig:pic2}
   \end{figure}
 
   \begin{multicols}{2}
@@ -214,11 +221,11 @@
 
       The search for abnormal student activities was carried out in the context of solving the problem of detecting students who have difficulties in solving exercises on various tasks. Accordingly, for each task, monitoring of successful and unsuccessful solution uploads of exercises was performed.
 
-      Figures 1 and 2 depict graphical dependencies for each task obtained as a result of applying the proposed algorithm, which is based on the analysis of box plots. This analysis is performed after each upload of a task solution to the DTA system. The figures display changes in the boundaries of the box plot for the number of incorrect solutions (Figure 1) and the duration of solutions (Figure 2) depending on the receipt of new data.
+      Figures \ref{fig:pic1} and \ref{fig:pic2} depict graphical dependencies for each task obtained as a result of applying the proposed algorithm, which is based on the analysis of box plots. This analysis is performed after each upload of a task solution to the DTA system. The figures display changes in the boundaries of the box plot for the number of incorrect solutions (Figure \ref{fig:pic1}) and the duration of solutions (Figure \ref{fig:pic2}) depending on the receipt of new data.
 
       The blue line in each figure represents a graphical dependency based on the median values of the number of solution uploads (duration of solution) for the task at the time of each upload. This graphical dependency is smoother than other dependencies based on Q1, Q3, as well as the boundary values for the lower and upper whiskers of the box plot. This is because these parameters are formed based on the results of accumulating a certain number of records and determining whether certain students have become outliers or have ceased to be.
 
-      In Figure 1, the graphical dependencies in all subfigures, except for the one corresponding to the 10th task, show that the average number of uploads is increasing. This is due to the fact that the 10th task is more complex, so it is characterized by many outlier students and a much larger spread of the whisker values compared to other tasks. At each moment when a student uploads a solution to a specific task, it is checked whether this upload of a specific student is an outlier or not. Then, the median, Q1, Q3 values, as well as the boundary values for the lower and upper whiskers of the box plot, are recalculated, taking into account this information for further monitoring and the construction of graphical dependencies for making certain pedagogical decisions.
+      In Figure \ref{fig:pic1}, the graphical dependencies in all subfigures, except for the one corresponding to the 10th task, show that the average number of uploads is increasing. This is due to the fact that the 10th task is more complex, so it is characterized by many outlier students and a much larger spread of the whisker values compared to other tasks. At each moment when a student uploads a solution to a specific task, it is checked whether this upload of a specific student is an outlier or not. Then, the median, Q1, Q3 values, as well as the boundary values for the lower and upper whiskers of the box plot, are recalculated, taking into account this information for further monitoring and the construction of graphical dependencies for making certain pedagogical decisions.
 
       In addition to the number of attempts to solve a task by a student, the duration between the publication of the task and its successful solution can also be analyzed.
 
@@ -232,12 +239,17 @@
 
       Students who fall below the median value, on average, solve tasks more quickly than others and require fewer attempts to do so. Their activity can also be tracked through analysis and encouraged.
 
-      The values on Figures 1 and 2 that fall above the purple line or below the red line are outliers. With the introduction of new data, some old data points may become outliers, and conversely, old outliers may cease to be outliers. As a result, graphical dependencies visualizing the boundary values of the upper and lower whiskers may fluctuate in both directions. The blue line represents the median value of the analyzed variable, and it is used as the central value rather than the mean because the median is robust to outliers. It is also worth noting that 50% of the sample falls between the graphical dependencies for the first and third quartiles, indicating where a significant portion of the data lies.
+      The values on Figures \ref{fig:pic1} and \ref{fig:pic2} that fall above the purple line or below the red line are outliers. With the introduction of new data, some old data points may become outliers, and conversely, old outliers may cease to be outliers. As a result, graphical dependencies visualizing the boundary values of the upper and lower whiskers may fluctuate in both directions. The blue line represents the median value of the analyzed variable, and it is used as the central value rather than the mean because the median is robust to outliers. It is also worth noting that 50% of the sample falls between the graphical dependencies for the first and third quartiles, indicating where a significant portion of the data lies.
 
       \section{CONCLUSION}
       The proposed algorithm allows real-time analysis of statistics for each task and identifies changes in student performance, which can be a valuable tool for adapting the educational process and providing individual support to students. It will detect both students experiencing difficulties in the learning process and students who can easily solve even the most challenging tasks with a small number of submissions and in a short time.
 
       The goal of further work is to create an integrated system for analyzing student activity with the aim of providing recommendations to teachers, notifying teachers of groups of students falling behind, identifying struggling students, and tracking dishonest students. This system will be based on the analysis of student performance, activity, and understanding of the study material. It will enable teachers to more accurately adapt the educational process to the needs of students and respond promptly to emerging difficulties. Ultimately, it will lead to more efficient use of instructional time and an increase in student performance. 
+
+      \section*{REFERENCES}
+      \begin{footnotesize}
+        \bibliography{paper.bib}
+      \end{footnotesize}
 
     \end{justify}
   \end{multicols}      
